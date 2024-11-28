@@ -13,13 +13,13 @@ import router from './router';
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <RouterLink to="/" class="nav-link">Home</RouterLink>
+          <router-link to="/" class="nav-link">Home</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cart</a>
+          <router-link to="/cart" class="nav-link">Cart</router-link>
         </li>
         <li class="nav-item">
-          <RouterLink to="/about" class="nav-link">About</RouterLink>
+          <router-link to="/about" class="nav-link">About</router-link>
         </li>
       </ul>
     </div>

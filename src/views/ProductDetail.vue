@@ -21,8 +21,10 @@
             <p>{{ product.description }}</p>
             <p>Price: {{ product.price }}$</p>
             <p>Date of addition: {{ product.publish_at }}</p>
-            <button type="button" class="btn btn-danger me-2" @click="addToCart">Add to cart</button>
-            <router-link to="/" class="btn btn-primary me-2">Back to Home</router-link>
+   
+            <button type="button" class="btn btn-outline-success me-2">Success</button>
+            <router-link to="/" class="btn btn-outline-primary">Back to Home</router-link>
+
         </div>
       </div>
     </div>
